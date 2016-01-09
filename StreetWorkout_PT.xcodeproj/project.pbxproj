@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13BCD4361C41945C005EDF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4351C41945C005EDF92 /* AppDelegate.swift */; };
+		13BCD43F1C41945C005EDF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BCD43E1C41945C005EDF92 /* Assets.xcassets */; };
+		13BCD44D1C41945C005EDF92 /* StreetWorkout_PTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD44C1C41945C005EDF92 /* StreetWorkout_PTTests.swift */; };
+		13BCD4581C41945C005EDF92 /* StreetWorkout_PTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4571C41945C005EDF92 /* StreetWorkout_PTUITests.swift */; };
+		13BCD46C1C419550005EDF92 /* ParkPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD46B1C419550005EDF92 /* ParkPin.swift */; };
+		13BCD46E1C419556005EDF92 /* ParkPinDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD46D1C419556005EDF92 /* ParkPinDetailView.swift */; };
+		13BCD4701C41955B005EDF92 /* PortugalStreetWorkout_Parks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13BCD46F1C41955B005EDF92 /* PortugalStreetWorkout_Parks.plist */; };
+		13BCD4721C419594005EDF92 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BCD4711C419593005EDF92 /* MobileCoreServices.framework */; };
+		13BCD4741C41959C005EDF92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BCD4731C41959C005EDF92 /* UIKit.framework */; };
+		13BCD4761C4195A5005EDF92 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BCD4751C4195A5005EDF92 /* CoreLocation.framework */; };
+		13BCD4781C4195AB005EDF92 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BCD4771C4195AB005EDF92 /* CoreData.framework */; };
+		13BCD47A1C4195BC005EDF92 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BCD4791C4195BC005EDF92 /* Social.framework */; };
+		13BCD47C1C4195C5005EDF92 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BCD47B1C4195C5005EDF92 /* MapKit.framework */; };
+		13BCD47E1C4195EC005EDF92 /* WorkoutButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD47D1C4195EC005EDF92 /* WorkoutButtonCell.swift */; };
+		13BCD4801C4195F3005EDF92 /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD47F1C4195F3005EDF92 /* WorkoutCell.swift */; };
+		13BCD4821C4195F7005EDF92 /* AddWorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4811C4195F7005EDF92 /* AddWorkoutCell.swift */; };
+		13BCD4841C4195FC005EDF92 /* AddWorkoutInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4831C4195FC005EDF92 /* AddWorkoutInfoCell.swift */; };
+		13BCD4861C419602005EDF92 /* AddWorkoutExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4851C419602005EDF92 /* AddWorkoutExerciseCell.swift */; };
+		13BCD4881C419609005EDF92 /* ParkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4871C419609005EDF92 /* ParkCell.swift */; };
+		13BCD48A1C41960E005EDF92 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4891C41960E005EDF92 /* ExerciseCell.swift */; };
+		13BCD48C1C419613005EDF92 /* AddParkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD48B1C419613005EDF92 /* AddParkCell.swift */; };
+		13BCD48E1C419618005EDF92 /* AddParkInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD48D1C419618005EDF92 /* AddParkInfoCell.swift */; };
+		13BCD4901C41961D005EDF92 /* AddParkDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD48F1C41961D005EDF92 /* AddParkDetailsCell.swift */; };
+		13BCD4921C419621005EDF92 /* ParkButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4911C419621005EDF92 /* ParkButtonCell.swift */; };
+		13BCD4941C41962E005EDF92 /* MapPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4931C41962E005EDF92 /* MapPark.swift */; };
+		13BCD4961C419635005EDF92 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4951C419635005EDF92 /* Exercise.swift */; };
+		13BCD4981C41963A005EDF92 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4971C41963A005EDF92 /* Workout.swift */; };
+		13BCD49A1C41963F005EDF92 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4991C41963F005EDF92 /* DataModel.swift */; };
+		13BCD49C1C419643005EDF92 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD49B1C419643005EDF92 /* Park.swift */; };
+		13BCD49E1C419659005EDF92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BCD49D1C419659005EDF92 /* LaunchScreen.storyboard */; };
+		13BCD4A01C41965F005EDF92 /* ParkPinDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13BCD49F1C41965F005EDF92 /* ParkPinDetailView.xib */; };
+		13BCD4A31C41966A005EDF92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BCD4A11C41966A005EDF92 /* Main.storyboard */; };
+		13BCD4A51C419677005EDF92 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4A41C419677005EDF92 /* WorkoutViewController.swift */; };
+		13BCD4A71C41967C005EDF92 /* AddWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4A61C41967C005EDF92 /* AddWorkoutViewController.swift */; };
+		13BCD4A91C419680005EDF92 /* WorkoutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4A81C419680005EDF92 /* WorkoutDetailViewController.swift */; };
+		13BCD4AB1C419685005EDF92 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4AA1C419685005EDF92 /* ExerciseViewController.swift */; };
+		13BCD4AD1C419689005EDF92 /* ExerciseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4AC1C419689005EDF92 /* ExerciseDetailViewController.swift */; };
+		13BCD4AF1C41968D005EDF92 /* ExerciseImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4AE1C41968D005EDF92 /* ExerciseImageViewController.swift */; };
+		13BCD4B11C419692005EDF92 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4B01C419692005EDF92 /* MapViewController.swift */; };
+		13BCD4B31C419696005EDF92 /* ParkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4B21C419696005EDF92 /* ParkViewController.swift */; };
+		13BCD4B51C41969C005EDF92 /* ParkImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4B41C41969C005EDF92 /* ParkImageViewController.swift */; };
+		13BCD4B71C4196A1005EDF92 /* ParkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4B61C4196A1005EDF92 /* ParkDetailViewController.swift */; };
+		13BCD4B91C4196A5005EDF92 /* AddParkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4B81C4196A5005EDF92 /* AddParkViewController.swift */; };
+		13BCD4BB1C4196AA005EDF92 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4BA1C4196AA005EDF92 /* CameraViewController.swift */; };
+		13BCD4BD1C419997005EDF92 /* DataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4BC1C419997005EDF92 /* DataModelTests.swift */; };
+		13BCD4BF1C4199DE005EDF92 /* ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4BE1C4199DE005EDF92 /* ExerciseTests.swift */; };
+		13BCD4C11C419A21005EDF92 /* ParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4C01C419A21005EDF92 /* ParkTests.swift */; };
+		13BCD4C31C419A67005EDF92 /* WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4C21C419A67005EDF92 /* WorkoutTests.swift */; };
+		13BCD4C51C419AA4005EDF92 /* WorkoutsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4C41C419AA4005EDF92 /* WorkoutsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13BCD4491C41945C005EDF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13BCD42A1C41945C005EDF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13BCD4311C41945C005EDF92;
+			remoteInfo = StreetWorkout_PT;
+		};
+		13BCD4541C41945C005EDF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13BCD42A1C41945C005EDF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13BCD4311C41945C005EDF92;
+			remoteInfo = StreetWorkout_PT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13BCD4321C41945C005EDF92 /* StreetWorkout_PT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetWorkout_PT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BCD4351C41945C005EDF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13BCD43E1C41945C005EDF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13BCD4431C41945C005EDF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13BCD4481C41945C005EDF92 /* StreetWorkout_PTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetWorkout_PTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BCD44C1C41945C005EDF92 /* StreetWorkout_PTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetWorkout_PTTests.swift; sourceTree = "<group>"; };
+		13BCD44E1C41945C005EDF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13BCD4531C41945C005EDF92 /* StreetWorkout_PTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetWorkout_PTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BCD4571C41945C005EDF92 /* StreetWorkout_PTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetWorkout_PTUITests.swift; sourceTree = "<group>"; };
+		13BCD4591C41945C005EDF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13BCD46B1C419550005EDF92 /* ParkPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkPin.swift; path = ../../../streetwork/Workouts/ParkPin.swift; sourceTree = "<group>"; };
+		13BCD46D1C419556005EDF92 /* ParkPinDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkPinDetailView.swift; path = ../../../streetwork/Workouts/ParkPinDetailView.swift; sourceTree = "<group>"; };
+		13BCD46F1C41955B005EDF92 /* PortugalStreetWorkout_Parks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PortugalStreetWorkout_Parks.plist; path = ../../../streetwork/Workouts/PortugalStreetWorkout_Parks.plist; sourceTree = "<group>"; };
+		13BCD4711C419593005EDF92 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		13BCD4731C41959C005EDF92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13BCD4751C4195A5005EDF92 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		13BCD4771C4195AB005EDF92 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		13BCD4791C4195BC005EDF92 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		13BCD47B1C4195C5005EDF92 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		13BCD47D1C4195EC005EDF92 /* WorkoutButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutButtonCell.swift; path = ../../../streetwork/Workouts/WorkoutButtonCell.swift; sourceTree = "<group>"; };
+		13BCD47F1C4195F3005EDF92 /* WorkoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutCell.swift; path = ../../../streetwork/Workouts/WorkoutCell.swift; sourceTree = "<group>"; };
+		13BCD4811C4195F7005EDF92 /* AddWorkoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddWorkoutCell.swift; path = ../../../streetwork/Workouts/AddWorkoutCell.swift; sourceTree = "<group>"; };
+		13BCD4831C4195FC005EDF92 /* AddWorkoutInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddWorkoutInfoCell.swift; path = ../../../streetwork/Workouts/AddWorkoutInfoCell.swift; sourceTree = "<group>"; };
+		13BCD4851C419602005EDF92 /* AddWorkoutExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddWorkoutExerciseCell.swift; path = ../../../streetwork/Workouts/AddWorkoutExerciseCell.swift; sourceTree = "<group>"; };
+		13BCD4871C419609005EDF92 /* ParkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkCell.swift; path = ../../../streetwork/Workouts/ParkCell.swift; sourceTree = "<group>"; };
+		13BCD4891C41960E005EDF92 /* ExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseCell.swift; path = ../../../streetwork/Workouts/ExerciseCell.swift; sourceTree = "<group>"; };
+		13BCD48B1C419613005EDF92 /* AddParkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddParkCell.swift; path = ../../../streetwork/Workouts/AddParkCell.swift; sourceTree = "<group>"; };
+		13BCD48D1C419618005EDF92 /* AddParkInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddParkInfoCell.swift; path = ../../../streetwork/Workouts/AddParkInfoCell.swift; sourceTree = "<group>"; };
+		13BCD48F1C41961D005EDF92 /* AddParkDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddParkDetailsCell.swift; path = ../../../streetwork/Workouts/AddParkDetailsCell.swift; sourceTree = "<group>"; };
+		13BCD4911C419621005EDF92 /* ParkButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkButtonCell.swift; path = ../../../streetwork/Workouts/ParkButtonCell.swift; sourceTree = "<group>"; };
+		13BCD4931C41962E005EDF92 /* MapPark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapPark.swift; path = ../../../streetwork/Workouts/MapPark.swift; sourceTree = "<group>"; };
+		13BCD4951C419635005EDF92 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exercise.swift; path = ../../../streetwork/Workouts/Exercise.swift; sourceTree = "<group>"; };
+		13BCD4971C41963A005EDF92 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Workout.swift; path = ../../../streetwork/Workouts/Workout.swift; sourceTree = "<group>"; };
+		13BCD4991C41963F005EDF92 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataModel.swift; path = ../../../streetwork/Workouts/DataModel.swift; sourceTree = "<group>"; };
+		13BCD49B1C419643005EDF92 /* Park.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Park.swift; path = ../../../streetwork/Workouts/Park.swift; sourceTree = "<group>"; };
+		13BCD49D1C419659005EDF92 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../streetwork/Workouts/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13BCD49F1C41965F005EDF92 /* ParkPinDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ParkPinDetailView.xib; path = ../../../streetwork/Workouts/ParkPinDetailView.xib; sourceTree = "<group>"; };
+		13BCD4A21C41966A005EDF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../streetwork/Workouts/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13BCD4A41C419677005EDF92 /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutViewController.swift; path = ../../../streetwork/Workouts/WorkoutViewController.swift; sourceTree = "<group>"; };
+		13BCD4A61C41967C005EDF92 /* AddWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddWorkoutViewController.swift; path = ../../../streetwork/Workouts/AddWorkoutViewController.swift; sourceTree = "<group>"; };
+		13BCD4A81C419680005EDF92 /* WorkoutDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutDetailViewController.swift; path = ../../../streetwork/Workouts/WorkoutDetailViewController.swift; sourceTree = "<group>"; };
+		13BCD4AA1C419685005EDF92 /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseViewController.swift; path = ../../../streetwork/Workouts/ExerciseViewController.swift; sourceTree = "<group>"; };
+		13BCD4AC1C419689005EDF92 /* ExerciseDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseDetailViewController.swift; path = ../../../streetwork/Workouts/ExerciseDetailViewController.swift; sourceTree = "<group>"; };
+		13BCD4AE1C41968D005EDF92 /* ExerciseImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseImageViewController.swift; path = ../../../streetwork/Workouts/ExerciseImageViewController.swift; sourceTree = "<group>"; };
+		13BCD4B01C419692005EDF92 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../../../streetwork/Workouts/MapViewController.swift; sourceTree = "<group>"; };
+		13BCD4B21C419696005EDF92 /* ParkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkViewController.swift; path = ../../../streetwork/Workouts/ParkViewController.swift; sourceTree = "<group>"; };
+		13BCD4B41C41969C005EDF92 /* ParkImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkImageViewController.swift; path = ../../../streetwork/Workouts/ParkImageViewController.swift; sourceTree = "<group>"; };
+		13BCD4B61C4196A1005EDF92 /* ParkDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkDetailViewController.swift; path = ../../../streetwork/Workouts/ParkDetailViewController.swift; sourceTree = "<group>"; };
+		13BCD4B81C4196A5005EDF92 /* AddParkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddParkViewController.swift; path = ../../../streetwork/Workouts/AddParkViewController.swift; sourceTree = "<group>"; };
+		13BCD4BA1C4196AA005EDF92 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ../../../streetwork/Workouts/CameraViewController.swift; sourceTree = "<group>"; };
+		13BCD4BC1C419997005EDF92 /* DataModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModelTests.swift; sourceTree = "<group>"; };
+		13BCD4BE1C4199DE005EDF92 /* ExerciseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseTests.swift; sourceTree = "<group>"; };
+		13BCD4C01C419A21005EDF92 /* ParkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkTests.swift; sourceTree = "<group>"; };
+		13BCD4C21C419A67005EDF92 /* WorkoutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTests.swift; sourceTree = "<group>"; };
+		13BCD4C41C419AA4005EDF92 /* WorkoutsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutsUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13BCD42F1C41945C005EDF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BCD47C1C4195C5005EDF92 /* MapKit.framework in Frameworks */,
+				13BCD47A1C4195BC005EDF92 /* Social.framework in Frameworks */,
+				13BCD4781C4195AB005EDF92 /* CoreData.framework in Frameworks */,
+				13BCD4761C4195A5005EDF92 /* CoreLocation.framework in Frameworks */,
+				13BCD4741C41959C005EDF92 /* UIKit.framework in Frameworks */,
+				13BCD4721C419594005EDF92 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BCD4451C41945C005EDF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BCD4501C41945C005EDF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13BCD4291C41945C005EDF92 = {
+			isa = PBXGroup;
+			children = (
+				13BCD4341C41945C005EDF92 /* StreetWorkout_PT */,
+				13BCD44B1C41945C005EDF92 /* StreetWorkout_PTTests */,
+				13BCD4561C41945C005EDF92 /* StreetWorkout_PTUITests */,
+				13BCD4331C41945C005EDF92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13BCD4331C41945C005EDF92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13BCD4321C41945C005EDF92 /* StreetWorkout_PT.app */,
+				13BCD4481C41945C005EDF92 /* StreetWorkout_PTTests.xctest */,
+				13BCD4531C41945C005EDF92 /* StreetWorkout_PTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13BCD4341C41945C005EDF92 /* StreetWorkout_PT */ = {
+			isa = PBXGroup;
+			children = (
+				13BCD46A1C4194FF005EDF92 /* Other Sources */,
+				13BCD4691C4194E0005EDF92 /* View Controllers */,
+				13BCD4681C4194D8005EDF92 /* Model */,
+				13BCD4671C4194CB005EDF92 /* Cells */,
+				13BCD4661C4194BB005EDF92 /* Map */,
+				13BCD4651C4194AF005EDF92 /* Frameworks */,
+			);
+			path = StreetWorkout_PT;
+			sourceTree = "<group>";
+		};
+		13BCD44B1C41945C005EDF92 /* StreetWorkout_PTTests */ = {
+			isa = PBXGroup;
+			children = (
+				13BCD44C1C41945C005EDF92 /* StreetWorkout_PTTests.swift */,
+				13BCD44E1C41945C005EDF92 /* Info.plist */,
+				13BCD4BC1C419997005EDF92 /* DataModelTests.swift */,
+				13BCD4BE1C4199DE005EDF92 /* ExerciseTests.swift */,
+				13BCD4C01C419A21005EDF92 /* ParkTests.swift */,
+				13BCD4C21C419A67005EDF92 /* WorkoutTests.swift */,
+			);
+			path = StreetWorkout_PTTests;
+			sourceTree = "<group>";
+		};
+		13BCD4561C41945C005EDF92 /* StreetWorkout_PTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13BCD4571C41945C005EDF92 /* StreetWorkout_PTUITests.swift */,
+				13BCD4591C41945C005EDF92 /* Info.plist */,
+				13BCD4C41C419AA4005EDF92 /* WorkoutsUITests.swift */,
+			);
+			path = StreetWorkout_PTUITests;
+			sourceTree = "<group>";
+		};
+		13BCD4651C4194AF005EDF92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13BCD4711C419593005EDF92 /* MobileCoreServices.framework */,
+				13BCD4731C41959C005EDF92 /* UIKit.framework */,
+				13BCD4751C4195A5005EDF92 /* CoreLocation.framework */,
+				13BCD4771C4195AB005EDF92 /* CoreData.framework */,
+				13BCD4791C4195BC005EDF92 /* Social.framework */,
+				13BCD47B1C4195C5005EDF92 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13BCD4661C4194BB005EDF92 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				13BCD46B1C419550005EDF92 /* ParkPin.swift */,
+				13BCD46D1C419556005EDF92 /* ParkPinDetailView.swift */,
+				13BCD46F1C41955B005EDF92 /* PortugalStreetWorkout_Parks.plist */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		13BCD4671C4194CB005EDF92 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				13BCD47D1C4195EC005EDF92 /* WorkoutButtonCell.swift */,
+				13BCD47F1C4195F3005EDF92 /* WorkoutCell.swift */,
+				13BCD4811C4195F7005EDF92 /* AddWorkoutCell.swift */,
+				13BCD4831C4195FC005EDF92 /* AddWorkoutInfoCell.swift */,
+				13BCD4851C419602005EDF92 /* AddWorkoutExerciseCell.swift */,
+				13BCD4871C419609005EDF92 /* ParkCell.swift */,
+				13BCD4891C41960E005EDF92 /* ExerciseCell.swift */,
+				13BCD48B1C419613005EDF92 /* AddParkCell.swift */,
+				13BCD48D1C419618005EDF92 /* AddParkInfoCell.swift */,
+				13BCD48F1C41961D005EDF92 /* AddParkDetailsCell.swift */,
+				13BCD4911C419621005EDF92 /* ParkButtonCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		13BCD4681C4194D8005EDF92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13BCD4931C41962E005EDF92 /* MapPark.swift */,
+				13BCD4951C419635005EDF92 /* Exercise.swift */,
+				13BCD4971C41963A005EDF92 /* Workout.swift */,
+				13BCD4991C41963F005EDF92 /* DataModel.swift */,
+				13BCD49B1C419643005EDF92 /* Park.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		13BCD4691C4194E0005EDF92 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				13BCD4A41C419677005EDF92 /* WorkoutViewController.swift */,
+				13BCD4A61C41967C005EDF92 /* AddWorkoutViewController.swift */,
+				13BCD4A81C419680005EDF92 /* WorkoutDetailViewController.swift */,
+				13BCD4AA1C419685005EDF92 /* ExerciseViewController.swift */,
+				13BCD4AC1C419689005EDF92 /* ExerciseDetailViewController.swift */,
+				13BCD4AE1C41968D005EDF92 /* ExerciseImageViewController.swift */,
+				13BCD4B01C419692005EDF92 /* MapViewController.swift */,
+				13BCD4B21C419696005EDF92 /* ParkViewController.swift */,
+				13BCD4B41C41969C005EDF92 /* ParkImageViewController.swift */,
+				13BCD4B61C4196A1005EDF92 /* ParkDetailViewController.swift */,
+				13BCD4B81C4196A5005EDF92 /* AddParkViewController.swift */,
+				13BCD4BA1C4196AA005EDF92 /* CameraViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		13BCD46A1C4194FF005EDF92 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				13BCD4431C41945C005EDF92 /* Info.plist */,
+				13BCD4351C41945C005EDF92 /* AppDelegate.swift */,
+				13BCD43E1C41945C005EDF92 /* Assets.xcassets */,
+				13BCD4A11C41966A005EDF92 /* Main.storyboard */,
+				13BCD49D1C419659005EDF92 /* LaunchScreen.storyboard */,
+				13BCD49F1C41965F005EDF92 /* ParkPinDetailView.xib */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13BCD4311C41945C005EDF92 /* StreetWorkout_PT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BCD45C1C41945C005EDF92 /* Build configuration list for PBXNativeTarget "StreetWorkout_PT" */;
+			buildPhases = (
+				13BCD42E1C41945C005EDF92 /* Sources */,
+				13BCD42F1C41945C005EDF92 /* Frameworks */,
+				13BCD4301C41945C005EDF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreetWorkout_PT;
+			productName = StreetWorkout_PT;
+			productReference = 13BCD4321C41945C005EDF92 /* StreetWorkout_PT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13BCD4471C41945C005EDF92 /* StreetWorkout_PTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BCD45F1C41945C005EDF92 /* Build configuration list for PBXNativeTarget "StreetWorkout_PTTests" */;
+			buildPhases = (
+				13BCD4441C41945C005EDF92 /* Sources */,
+				13BCD4451C41945C005EDF92 /* Frameworks */,
+				13BCD4461C41945C005EDF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13BCD44A1C41945C005EDF92 /* PBXTargetDependency */,
+			);
+			name = StreetWorkout_PTTests;
+			productName = StreetWorkout_PTTests;
+			productReference = 13BCD4481C41945C005EDF92 /* StreetWorkout_PTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13BCD4521C41945C005EDF92 /* StreetWorkout_PTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BCD4621C41945C005EDF92 /* Build configuration list for PBXNativeTarget "StreetWorkout_PTUITests" */;
+			buildPhases = (
+				13BCD44F1C41945C005EDF92 /* Sources */,
+				13BCD4501C41945C005EDF92 /* Frameworks */,
+				13BCD4511C41945C005EDF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13BCD4551C41945C005EDF92 /* PBXTargetDependency */,
+			);
+			name = StreetWorkout_PTUITests;
+			productName = StreetWorkout_PTUITests;
+			productReference = 13BCD4531C41945C005EDF92 /* StreetWorkout_PTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13BCD42A1C41945C005EDF92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ruben Maia";
+				TargetAttributes = {
+					13BCD4311C41945C005EDF92 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					13BCD4471C41945C005EDF92 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 13BCD4311C41945C005EDF92;
+					};
+					13BCD4521C41945C005EDF92 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 13BCD4311C41945C005EDF92;
+					};
+				};
+			};
+			buildConfigurationList = 13BCD42D1C41945C005EDF92 /* Build configuration list for PBXProject "StreetWorkout_PT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13BCD4291C41945C005EDF92;
+			productRefGroup = 13BCD4331C41945C005EDF92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13BCD4311C41945C005EDF92 /* StreetWorkout_PT */,
+				13BCD4471C41945C005EDF92 /* StreetWorkout_PTTests */,
+				13BCD4521C41945C005EDF92 /* StreetWorkout_PTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13BCD4301C41945C005EDF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BCD4701C41955B005EDF92 /* PortugalStreetWorkout_Parks.plist in Resources */,
+				13BCD4A31C41966A005EDF92 /* Main.storyboard in Resources */,
+				13BCD49E1C419659005EDF92 /* LaunchScreen.storyboard in Resources */,
+				13BCD4A01C41965F005EDF92 /* ParkPinDetailView.xib in Resources */,
+				13BCD43F1C41945C005EDF92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BCD4461C41945C005EDF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BCD4511C41945C005EDF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13BCD42E1C41945C005EDF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BCD4841C4195FC005EDF92 /* AddWorkoutInfoCell.swift in Sources */,
+				13BCD4961C419635005EDF92 /* Exercise.swift in Sources */,
+				13BCD4A71C41967C005EDF92 /* AddWorkoutViewController.swift in Sources */,
+				13BCD4B71C4196A1005EDF92 /* ParkDetailViewController.swift in Sources */,
+				13BCD4921C419621005EDF92 /* ParkButtonCell.swift in Sources */,
+				13BCD4361C41945C005EDF92 /* AppDelegate.swift in Sources */,
+				13BCD4801C4195F3005EDF92 /* WorkoutCell.swift in Sources */,
+				13BCD4AF1C41968D005EDF92 /* ExerciseImageViewController.swift in Sources */,
+				13BCD48A1C41960E005EDF92 /* ExerciseCell.swift in Sources */,
+				13BCD4B51C41969C005EDF92 /* ParkImageViewController.swift in Sources */,
+				13BCD4861C419602005EDF92 /* AddWorkoutExerciseCell.swift in Sources */,
+				13BCD4B31C419696005EDF92 /* ParkViewController.swift in Sources */,
+				13BCD47E1C4195EC005EDF92 /* WorkoutButtonCell.swift in Sources */,
+				13BCD4821C4195F7005EDF92 /* AddWorkoutCell.swift in Sources */,
+				13BCD46E1C419556005EDF92 /* ParkPinDetailView.swift in Sources */,
+				13BCD4BB1C4196AA005EDF92 /* CameraViewController.swift in Sources */,
+				13BCD4AD1C419689005EDF92 /* ExerciseDetailViewController.swift in Sources */,
+				13BCD4901C41961D005EDF92 /* AddParkDetailsCell.swift in Sources */,
+				13BCD4AB1C419685005EDF92 /* ExerciseViewController.swift in Sources */,
+				13BCD46C1C419550005EDF92 /* ParkPin.swift in Sources */,
+				13BCD4A91C419680005EDF92 /* WorkoutDetailViewController.swift in Sources */,
+				13BCD4A51C419677005EDF92 /* WorkoutViewController.swift in Sources */,
+				13BCD4881C419609005EDF92 /* ParkCell.swift in Sources */,
+				13BCD4B11C419692005EDF92 /* MapViewController.swift in Sources */,
+				13BCD4941C41962E005EDF92 /* MapPark.swift in Sources */,
+				13BCD49C1C419643005EDF92 /* Park.swift in Sources */,
+				13BCD48C1C419613005EDF92 /* AddParkCell.swift in Sources */,
+				13BCD4B91C4196A5005EDF92 /* AddParkViewController.swift in Sources */,
+				13BCD4981C41963A005EDF92 /* Workout.swift in Sources */,
+				13BCD48E1C419618005EDF92 /* AddParkInfoCell.swift in Sources */,
+				13BCD49A1C41963F005EDF92 /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BCD4441C41945C005EDF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BCD44D1C41945C005EDF92 /* StreetWorkout_PTTests.swift in Sources */,
+				13BCD4C31C419A67005EDF92 /* WorkoutTests.swift in Sources */,
+				13BCD4BF1C4199DE005EDF92 /* ExerciseTests.swift in Sources */,
+				13BCD4BD1C419997005EDF92 /* DataModelTests.swift in Sources */,
+				13BCD4C11C419A21005EDF92 /* ParkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BCD44F1C41945C005EDF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BCD4581C41945C005EDF92 /* StreetWorkout_PTUITests.swift in Sources */,
+				13BCD4C51C419AA4005EDF92 /* WorkoutsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13BCD44A1C41945C005EDF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13BCD4311C41945C005EDF92 /* StreetWorkout_PT */;
+			targetProxy = 13BCD4491C41945C005EDF92 /* PBXContainerItemProxy */;
+		};
+		13BCD4551C41945C005EDF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13BCD4311C41945C005EDF92 /* StreetWorkout_PT */;
+			targetProxy = 13BCD4541C41945C005EDF92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13BCD4A11C41966A005EDF92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13BCD4A21C41966A005EDF92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13BCD45A1C41945C005EDF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13BCD45B1C41945C005EDF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13BCD45D1C41945C005EDF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StreetWorkout_PT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "estg.ipleiria.pt.StreetWorkout-PT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13BCD45E1C41945C005EDF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StreetWorkout_PT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "estg.ipleiria.pt.StreetWorkout-PT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13BCD4601C41945C005EDF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StreetWorkout_PTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "estg.ipleiria.pt.StreetWorkout-PTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetWorkout_PT.app/StreetWorkout_PT";
+			};
+			name = Debug;
+		};
+		13BCD4611C41945C005EDF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StreetWorkout_PTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "estg.ipleiria.pt.StreetWorkout-PTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetWorkout_PT.app/StreetWorkout_PT";
+			};
+			name = Release;
+		};
+		13BCD4631C41945C005EDF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StreetWorkout_PTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "estg.ipleiria.pt.StreetWorkout-PTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StreetWorkout_PT;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		13BCD4641C41945C005EDF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StreetWorkout_PTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "estg.ipleiria.pt.StreetWorkout-PTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StreetWorkout_PT;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13BCD42D1C41945C005EDF92 /* Build configuration list for PBXProject "StreetWorkout_PT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BCD45A1C41945C005EDF92 /* Debug */,
+				13BCD45B1C41945C005EDF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13BCD45C1C41945C005EDF92 /* Build configuration list for PBXNativeTarget "StreetWorkout_PT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BCD45D1C41945C005EDF92 /* Debug */,
+				13BCD45E1C41945C005EDF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13BCD45F1C41945C005EDF92 /* Build configuration list for PBXNativeTarget "StreetWorkout_PTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BCD4601C41945C005EDF92 /* Debug */,
+				13BCD4611C41945C005EDF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13BCD4621C41945C005EDF92 /* Build configuration list for PBXNativeTarget "StreetWorkout_PTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BCD4631C41945C005EDF92 /* Debug */,
+				13BCD4641C41945C005EDF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13BCD42A1C41945C005EDF92 /* Project object */;
+}
