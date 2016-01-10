@@ -7,50 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136ACF511C42B725000B2BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136ACF501C42B725000B2BD5 /* LaunchScreen.storyboard */; };
+		136ACF5D1C42B756000B2BD5 /* AddParkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF521C42B756000B2BD5 /* AddParkCell.swift */; };
+		136ACF5E1C42B756000B2BD5 /* AddParkCoordinatesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF531C42B756000B2BD5 /* AddParkCoordinatesCell.swift */; };
+		136ACF5F1C42B756000B2BD5 /* AddParkDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF541C42B756000B2BD5 /* AddParkDetailsCell.swift */; };
+		136ACF601C42B756000B2BD5 /* AddParkInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF551C42B756000B2BD5 /* AddParkInfoCell.swift */; };
+		136ACF611C42B756000B2BD5 /* AddParkLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF561C42B756000B2BD5 /* AddParkLocationCell.swift */; };
+		136ACF621C42B756000B2BD5 /* AddParkRateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF571C42B756000B2BD5 /* AddParkRateCell.swift */; };
+		136ACF631C42B756000B2BD5 /* AddParkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF581C42B756000B2BD5 /* AddParkViewController.swift */; };
+		136ACF641C42B756000B2BD5 /* AddWorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF591C42B756000B2BD5 /* AddWorkoutCell.swift */; };
+		136ACF651C42B756000B2BD5 /* AddWorkoutExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF5A1C42B756000B2BD5 /* AddWorkoutExerciseCell.swift */; };
+		136ACF661C42B756000B2BD5 /* AddWorkoutInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF5B1C42B756000B2BD5 /* AddWorkoutInfoCell.swift */; };
+		136ACF671C42B756000B2BD5 /* AddWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF5C1C42B756000B2BD5 /* AddWorkoutViewController.swift */; };
+		136ACF691C42B7BF000B2BD5 /* ParkPinDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 136ACF681C42B7BF000B2BD5 /* ParkPinDetailView.xib */; };
+		136ACF7A1C42B7F1000B2BD5 /* MapPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF6A1C42B7F1000B2BD5 /* MapPark.swift */; };
+		136ACF7B1C42B7F1000B2BD5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF6B1C42B7F1000B2BD5 /* MapViewController.swift */; };
+		136ACF7C1C42B7F1000B2BD5 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF6C1C42B7F1000B2BD5 /* Park.swift */; };
+		136ACF7D1C42B7F1000B2BD5 /* ParkButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF6D1C42B7F1000B2BD5 /* ParkButtonCell.swift */; };
+		136ACF7E1C42B7F1000B2BD5 /* ParkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF6E1C42B7F1000B2BD5 /* ParkCell.swift */; };
+		136ACF7F1C42B7F1000B2BD5 /* ParkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF6F1C42B7F1000B2BD5 /* ParkDetailViewController.swift */; };
+		136ACF801C42B7F1000B2BD5 /* ParkImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF701C42B7F1000B2BD5 /* ParkImageViewController.swift */; };
+		136ACF811C42B7F1000B2BD5 /* ParkPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF711C42B7F1000B2BD5 /* ParkPin.swift */; };
+		136ACF821C42B7F1000B2BD5 /* ParkPinDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF721C42B7F1000B2BD5 /* ParkPinDetailView.swift */; };
+		136ACF831C42B7F1000B2BD5 /* ParkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF731C42B7F1000B2BD5 /* ParkViewController.swift */; };
+		136ACF841C42B7F1000B2BD5 /* PortugalStreetWorkout_Parks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 136ACF741C42B7F1000B2BD5 /* PortugalStreetWorkout_Parks.plist */; };
+		136ACF851C42B7F1000B2BD5 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF751C42B7F1000B2BD5 /* Workout.swift */; };
+		136ACF861C42B7F1000B2BD5 /* WorkoutButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF761C42B7F1000B2BD5 /* WorkoutButtonCell.swift */; };
+		136ACF871C42B7F1000B2BD5 /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF771C42B7F1000B2BD5 /* WorkoutCell.swift */; };
+		136ACF881C42B7F1000B2BD5 /* WorkoutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF781C42B7F1000B2BD5 /* WorkoutDetailViewController.swift */; };
+		136ACF891C42B7F1000B2BD5 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF791C42B7F1000B2BD5 /* WorkoutViewController.swift */; };
+		136ACF8C1C42B85E000B2BD5 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF8A1C42B85E000B2BD5 /* DataModel.swift */; };
+		136ACF8D1C42B85E000B2BD5 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF8B1C42B85E000B2BD5 /* Exercise.swift */; };
+		136ACF911C42B87E000B2BD5 /* ExerciseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF8E1C42B87E000B2BD5 /* ExerciseDetailViewController.swift */; };
+		136ACF921C42B87E000B2BD5 /* ExerciseImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF8F1C42B87E000B2BD5 /* ExerciseImageViewController.swift */; };
+		136ACF931C42B87E000B2BD5 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF901C42B87E000B2BD5 /* ExerciseViewController.swift */; };
+		136ACF971C42B891000B2BD5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF951C42B891000B2BD5 /* CameraViewController.swift */; };
+		136ACF991C42B8AC000B2BD5 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ACF981C42B8AC000B2BD5 /* ExerciseCell.swift */; };
+		136ACF9B1C42B925000B2BD5 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 136ACF9A1C42B925000B2BD5 /* Base.lproj */; };
+		136ACF9D1C42BA20000B2BD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136ACF9C1C42BA20000B2BD5 /* Main.storyboard */; };
 		13BCD4361C41945C005EDF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4351C41945C005EDF92 /* AppDelegate.swift */; };
 		13BCD43F1C41945C005EDF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BCD43E1C41945C005EDF92 /* Assets.xcassets */; };
 		13BCD44D1C41945C005EDF92 /* StreetWorkout_PTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD44C1C41945C005EDF92 /* StreetWorkout_PTTests.swift */; };
 		13BCD4581C41945C005EDF92 /* StreetWorkout_PTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4571C41945C005EDF92 /* StreetWorkout_PTUITests.swift */; };
-		13BCD46C1C419550005EDF92 /* ParkPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD46B1C419550005EDF92 /* ParkPin.swift */; };
-		13BCD46E1C419556005EDF92 /* ParkPinDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD46D1C419556005EDF92 /* ParkPinDetailView.swift */; };
-		13BCD4701C41955B005EDF92 /* PortugalStreetWorkout_Parks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13BCD46F1C41955B005EDF92 /* PortugalStreetWorkout_Parks.plist */; };
 		13BCD4721C419594005EDF92 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BCD4711C419593005EDF92 /* MobileCoreServices.framework */; };
 		13BCD4741C41959C005EDF92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BCD4731C41959C005EDF92 /* UIKit.framework */; };
 		13BCD4761C4195A5005EDF92 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BCD4751C4195A5005EDF92 /* CoreLocation.framework */; };
 		13BCD4781C4195AB005EDF92 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BCD4771C4195AB005EDF92 /* CoreData.framework */; };
 		13BCD47A1C4195BC005EDF92 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BCD4791C4195BC005EDF92 /* Social.framework */; };
 		13BCD47C1C4195C5005EDF92 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BCD47B1C4195C5005EDF92 /* MapKit.framework */; };
-		13BCD47E1C4195EC005EDF92 /* WorkoutButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD47D1C4195EC005EDF92 /* WorkoutButtonCell.swift */; };
-		13BCD4801C4195F3005EDF92 /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD47F1C4195F3005EDF92 /* WorkoutCell.swift */; };
-		13BCD4821C4195F7005EDF92 /* AddWorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4811C4195F7005EDF92 /* AddWorkoutCell.swift */; };
-		13BCD4841C4195FC005EDF92 /* AddWorkoutInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4831C4195FC005EDF92 /* AddWorkoutInfoCell.swift */; };
-		13BCD4861C419602005EDF92 /* AddWorkoutExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4851C419602005EDF92 /* AddWorkoutExerciseCell.swift */; };
-		13BCD4881C419609005EDF92 /* ParkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4871C419609005EDF92 /* ParkCell.swift */; };
-		13BCD48A1C41960E005EDF92 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4891C41960E005EDF92 /* ExerciseCell.swift */; };
-		13BCD48C1C419613005EDF92 /* AddParkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD48B1C419613005EDF92 /* AddParkCell.swift */; };
-		13BCD48E1C419618005EDF92 /* AddParkInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD48D1C419618005EDF92 /* AddParkInfoCell.swift */; };
-		13BCD4901C41961D005EDF92 /* AddParkDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD48F1C41961D005EDF92 /* AddParkDetailsCell.swift */; };
-		13BCD4921C419621005EDF92 /* ParkButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4911C419621005EDF92 /* ParkButtonCell.swift */; };
-		13BCD4941C41962E005EDF92 /* MapPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4931C41962E005EDF92 /* MapPark.swift */; };
-		13BCD4961C419635005EDF92 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4951C419635005EDF92 /* Exercise.swift */; };
-		13BCD4981C41963A005EDF92 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4971C41963A005EDF92 /* Workout.swift */; };
-		13BCD49A1C41963F005EDF92 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4991C41963F005EDF92 /* DataModel.swift */; };
-		13BCD49C1C419643005EDF92 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD49B1C419643005EDF92 /* Park.swift */; };
-		13BCD49E1C419659005EDF92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BCD49D1C419659005EDF92 /* LaunchScreen.storyboard */; };
-		13BCD4A01C41965F005EDF92 /* ParkPinDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13BCD49F1C41965F005EDF92 /* ParkPinDetailView.xib */; };
-		13BCD4A31C41966A005EDF92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BCD4A11C41966A005EDF92 /* Main.storyboard */; };
-		13BCD4A51C419677005EDF92 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4A41C419677005EDF92 /* WorkoutViewController.swift */; };
-		13BCD4A71C41967C005EDF92 /* AddWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4A61C41967C005EDF92 /* AddWorkoutViewController.swift */; };
-		13BCD4A91C419680005EDF92 /* WorkoutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4A81C419680005EDF92 /* WorkoutDetailViewController.swift */; };
-		13BCD4AB1C419685005EDF92 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4AA1C419685005EDF92 /* ExerciseViewController.swift */; };
-		13BCD4AD1C419689005EDF92 /* ExerciseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4AC1C419689005EDF92 /* ExerciseDetailViewController.swift */; };
-		13BCD4AF1C41968D005EDF92 /* ExerciseImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4AE1C41968D005EDF92 /* ExerciseImageViewController.swift */; };
-		13BCD4B11C419692005EDF92 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4B01C419692005EDF92 /* MapViewController.swift */; };
-		13BCD4B31C419696005EDF92 /* ParkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4B21C419696005EDF92 /* ParkViewController.swift */; };
-		13BCD4B51C41969C005EDF92 /* ParkImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4B41C41969C005EDF92 /* ParkImageViewController.swift */; };
-		13BCD4B71C4196A1005EDF92 /* ParkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4B61C4196A1005EDF92 /* ParkDetailViewController.swift */; };
-		13BCD4B91C4196A5005EDF92 /* AddParkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4B81C4196A5005EDF92 /* AddParkViewController.swift */; };
-		13BCD4BB1C4196AA005EDF92 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4BA1C4196AA005EDF92 /* CameraViewController.swift */; };
 		13BCD4BD1C419997005EDF92 /* DataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4BC1C419997005EDF92 /* DataModelTests.swift */; };
 		13BCD4BF1C4199DE005EDF92 /* ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4BE1C4199DE005EDF92 /* ExerciseTests.swift */; };
 		13BCD4C11C419A21005EDF92 /* ParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCD4C01C419A21005EDF92 /* ParkTests.swift */; };
@@ -76,6 +80,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		136ACF501C42B725000B2BD5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		136ACF521C42B756000B2BD5 /* AddParkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddParkCell.swift; sourceTree = "<group>"; };
+		136ACF531C42B756000B2BD5 /* AddParkCoordinatesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddParkCoordinatesCell.swift; sourceTree = "<group>"; };
+		136ACF541C42B756000B2BD5 /* AddParkDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddParkDetailsCell.swift; sourceTree = "<group>"; };
+		136ACF551C42B756000B2BD5 /* AddParkInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddParkInfoCell.swift; sourceTree = "<group>"; };
+		136ACF561C42B756000B2BD5 /* AddParkLocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddParkLocationCell.swift; sourceTree = "<group>"; };
+		136ACF571C42B756000B2BD5 /* AddParkRateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddParkRateCell.swift; sourceTree = "<group>"; };
+		136ACF581C42B756000B2BD5 /* AddParkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddParkViewController.swift; sourceTree = "<group>"; };
+		136ACF591C42B756000B2BD5 /* AddWorkoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWorkoutCell.swift; sourceTree = "<group>"; };
+		136ACF5A1C42B756000B2BD5 /* AddWorkoutExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWorkoutExerciseCell.swift; sourceTree = "<group>"; };
+		136ACF5B1C42B756000B2BD5 /* AddWorkoutInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWorkoutInfoCell.swift; sourceTree = "<group>"; };
+		136ACF5C1C42B756000B2BD5 /* AddWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWorkoutViewController.swift; sourceTree = "<group>"; };
+		136ACF681C42B7BF000B2BD5 /* ParkPinDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParkPinDetailView.xib; sourceTree = "<group>"; };
+		136ACF6A1C42B7F1000B2BD5 /* MapPark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPark.swift; sourceTree = "<group>"; };
+		136ACF6B1C42B7F1000B2BD5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		136ACF6C1C42B7F1000B2BD5 /* Park.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
+		136ACF6D1C42B7F1000B2BD5 /* ParkButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkButtonCell.swift; sourceTree = "<group>"; };
+		136ACF6E1C42B7F1000B2BD5 /* ParkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkCell.swift; sourceTree = "<group>"; };
+		136ACF6F1C42B7F1000B2BD5 /* ParkDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkDetailViewController.swift; sourceTree = "<group>"; };
+		136ACF701C42B7F1000B2BD5 /* ParkImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkImageViewController.swift; sourceTree = "<group>"; };
+		136ACF711C42B7F1000B2BD5 /* ParkPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkPin.swift; sourceTree = "<group>"; };
+		136ACF721C42B7F1000B2BD5 /* ParkPinDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkPinDetailView.swift; sourceTree = "<group>"; };
+		136ACF731C42B7F1000B2BD5 /* ParkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkViewController.swift; sourceTree = "<group>"; };
+		136ACF741C42B7F1000B2BD5 /* PortugalStreetWorkout_Parks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PortugalStreetWorkout_Parks.plist; sourceTree = "<group>"; };
+		136ACF751C42B7F1000B2BD5 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		136ACF761C42B7F1000B2BD5 /* WorkoutButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutButtonCell.swift; sourceTree = "<group>"; };
+		136ACF771C42B7F1000B2BD5 /* WorkoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCell.swift; sourceTree = "<group>"; };
+		136ACF781C42B7F1000B2BD5 /* WorkoutDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDetailViewController.swift; sourceTree = "<group>"; };
+		136ACF791C42B7F1000B2BD5 /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		136ACF8A1C42B85E000B2BD5 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		136ACF8B1C42B85E000B2BD5 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		136ACF8E1C42B87E000B2BD5 /* ExerciseDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewController.swift; sourceTree = "<group>"; };
+		136ACF8F1C42B87E000B2BD5 /* ExerciseImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseImageViewController.swift; sourceTree = "<group>"; };
+		136ACF901C42B87E000B2BD5 /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		136ACF951C42B891000B2BD5 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		136ACF981C42B8AC000B2BD5 /* ExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
+		136ACF9A1C42B925000B2BD5 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		136ACF9C1C42BA20000B2BD5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13BCD4321C41945C005EDF92 /* StreetWorkout_PT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetWorkout_PT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13BCD4351C41945C005EDF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13BCD43E1C41945C005EDF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,46 +128,12 @@
 		13BCD4531C41945C005EDF92 /* StreetWorkout_PTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetWorkout_PTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13BCD4571C41945C005EDF92 /* StreetWorkout_PTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetWorkout_PTUITests.swift; sourceTree = "<group>"; };
 		13BCD4591C41945C005EDF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13BCD46B1C419550005EDF92 /* ParkPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkPin.swift; path = ../../../streetwork/Workouts/ParkPin.swift; sourceTree = "<group>"; };
-		13BCD46D1C419556005EDF92 /* ParkPinDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkPinDetailView.swift; path = ../../../streetwork/Workouts/ParkPinDetailView.swift; sourceTree = "<group>"; };
-		13BCD46F1C41955B005EDF92 /* PortugalStreetWorkout_Parks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PortugalStreetWorkout_Parks.plist; path = ../../../streetwork/Workouts/PortugalStreetWorkout_Parks.plist; sourceTree = "<group>"; };
 		13BCD4711C419593005EDF92 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		13BCD4731C41959C005EDF92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13BCD4751C4195A5005EDF92 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		13BCD4771C4195AB005EDF92 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		13BCD4791C4195BC005EDF92 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		13BCD47B1C4195C5005EDF92 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		13BCD47D1C4195EC005EDF92 /* WorkoutButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutButtonCell.swift; path = ../../../streetwork/Workouts/WorkoutButtonCell.swift; sourceTree = "<group>"; };
-		13BCD47F1C4195F3005EDF92 /* WorkoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutCell.swift; path = ../../../streetwork/Workouts/WorkoutCell.swift; sourceTree = "<group>"; };
-		13BCD4811C4195F7005EDF92 /* AddWorkoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddWorkoutCell.swift; path = ../../../streetwork/Workouts/AddWorkoutCell.swift; sourceTree = "<group>"; };
-		13BCD4831C4195FC005EDF92 /* AddWorkoutInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddWorkoutInfoCell.swift; path = ../../../streetwork/Workouts/AddWorkoutInfoCell.swift; sourceTree = "<group>"; };
-		13BCD4851C419602005EDF92 /* AddWorkoutExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddWorkoutExerciseCell.swift; path = ../../../streetwork/Workouts/AddWorkoutExerciseCell.swift; sourceTree = "<group>"; };
-		13BCD4871C419609005EDF92 /* ParkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkCell.swift; path = ../../../streetwork/Workouts/ParkCell.swift; sourceTree = "<group>"; };
-		13BCD4891C41960E005EDF92 /* ExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseCell.swift; path = ../../../streetwork/Workouts/ExerciseCell.swift; sourceTree = "<group>"; };
-		13BCD48B1C419613005EDF92 /* AddParkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddParkCell.swift; path = ../../../streetwork/Workouts/AddParkCell.swift; sourceTree = "<group>"; };
-		13BCD48D1C419618005EDF92 /* AddParkInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddParkInfoCell.swift; path = ../../../streetwork/Workouts/AddParkInfoCell.swift; sourceTree = "<group>"; };
-		13BCD48F1C41961D005EDF92 /* AddParkDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddParkDetailsCell.swift; path = ../../../streetwork/Workouts/AddParkDetailsCell.swift; sourceTree = "<group>"; };
-		13BCD4911C419621005EDF92 /* ParkButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkButtonCell.swift; path = ../../../streetwork/Workouts/ParkButtonCell.swift; sourceTree = "<group>"; };
-		13BCD4931C41962E005EDF92 /* MapPark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapPark.swift; path = ../../../streetwork/Workouts/MapPark.swift; sourceTree = "<group>"; };
-		13BCD4951C419635005EDF92 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exercise.swift; path = ../../../streetwork/Workouts/Exercise.swift; sourceTree = "<group>"; };
-		13BCD4971C41963A005EDF92 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Workout.swift; path = ../../../streetwork/Workouts/Workout.swift; sourceTree = "<group>"; };
-		13BCD4991C41963F005EDF92 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataModel.swift; path = ../../../streetwork/Workouts/DataModel.swift; sourceTree = "<group>"; };
-		13BCD49B1C419643005EDF92 /* Park.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Park.swift; path = ../../../streetwork/Workouts/Park.swift; sourceTree = "<group>"; };
-		13BCD49D1C419659005EDF92 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../streetwork/Workouts/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		13BCD49F1C41965F005EDF92 /* ParkPinDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ParkPinDetailView.xib; path = ../../../streetwork/Workouts/ParkPinDetailView.xib; sourceTree = "<group>"; };
-		13BCD4A21C41966A005EDF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../streetwork/Workouts/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		13BCD4A41C419677005EDF92 /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutViewController.swift; path = ../../../streetwork/Workouts/WorkoutViewController.swift; sourceTree = "<group>"; };
-		13BCD4A61C41967C005EDF92 /* AddWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddWorkoutViewController.swift; path = ../../../streetwork/Workouts/AddWorkoutViewController.swift; sourceTree = "<group>"; };
-		13BCD4A81C419680005EDF92 /* WorkoutDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutDetailViewController.swift; path = ../../../streetwork/Workouts/WorkoutDetailViewController.swift; sourceTree = "<group>"; };
-		13BCD4AA1C419685005EDF92 /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseViewController.swift; path = ../../../streetwork/Workouts/ExerciseViewController.swift; sourceTree = "<group>"; };
-		13BCD4AC1C419689005EDF92 /* ExerciseDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseDetailViewController.swift; path = ../../../streetwork/Workouts/ExerciseDetailViewController.swift; sourceTree = "<group>"; };
-		13BCD4AE1C41968D005EDF92 /* ExerciseImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseImageViewController.swift; path = ../../../streetwork/Workouts/ExerciseImageViewController.swift; sourceTree = "<group>"; };
-		13BCD4B01C419692005EDF92 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../../../streetwork/Workouts/MapViewController.swift; sourceTree = "<group>"; };
-		13BCD4B21C419696005EDF92 /* ParkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkViewController.swift; path = ../../../streetwork/Workouts/ParkViewController.swift; sourceTree = "<group>"; };
-		13BCD4B41C41969C005EDF92 /* ParkImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkImageViewController.swift; path = ../../../streetwork/Workouts/ParkImageViewController.swift; sourceTree = "<group>"; };
-		13BCD4B61C4196A1005EDF92 /* ParkDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkDetailViewController.swift; path = ../../../streetwork/Workouts/ParkDetailViewController.swift; sourceTree = "<group>"; };
-		13BCD4B81C4196A5005EDF92 /* AddParkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddParkViewController.swift; path = ../../../streetwork/Workouts/AddParkViewController.swift; sourceTree = "<group>"; };
-		13BCD4BA1C4196AA005EDF92 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ../../../streetwork/Workouts/CameraViewController.swift; sourceTree = "<group>"; };
 		13BCD4BC1C419997005EDF92 /* DataModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModelTests.swift; sourceTree = "<group>"; };
 		13BCD4BE1C4199DE005EDF92 /* ExerciseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseTests.swift; sourceTree = "<group>"; };
 		13BCD4C01C419A21005EDF92 /* ParkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkTests.swift; sourceTree = "<group>"; };
@@ -236,9 +244,9 @@
 		13BCD4661C4194BB005EDF92 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				13BCD46B1C419550005EDF92 /* ParkPin.swift */,
-				13BCD46D1C419556005EDF92 /* ParkPinDetailView.swift */,
-				13BCD46F1C41955B005EDF92 /* PortugalStreetWorkout_Parks.plist */,
+				136ACF711C42B7F1000B2BD5 /* ParkPin.swift */,
+				136ACF721C42B7F1000B2BD5 /* ParkPinDetailView.swift */,
+				136ACF741C42B7F1000B2BD5 /* PortugalStreetWorkout_Parks.plist */,
 			);
 			name = Map;
 			sourceTree = "<group>";
@@ -246,17 +254,20 @@
 		13BCD4671C4194CB005EDF92 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				13BCD47D1C4195EC005EDF92 /* WorkoutButtonCell.swift */,
-				13BCD47F1C4195F3005EDF92 /* WorkoutCell.swift */,
-				13BCD4811C4195F7005EDF92 /* AddWorkoutCell.swift */,
-				13BCD4831C4195FC005EDF92 /* AddWorkoutInfoCell.swift */,
-				13BCD4851C419602005EDF92 /* AddWorkoutExerciseCell.swift */,
-				13BCD4871C419609005EDF92 /* ParkCell.swift */,
-				13BCD4891C41960E005EDF92 /* ExerciseCell.swift */,
-				13BCD48B1C419613005EDF92 /* AddParkCell.swift */,
-				13BCD48D1C419618005EDF92 /* AddParkInfoCell.swift */,
-				13BCD48F1C41961D005EDF92 /* AddParkDetailsCell.swift */,
-				13BCD4911C419621005EDF92 /* ParkButtonCell.swift */,
+				136ACF981C42B8AC000B2BD5 /* ExerciseCell.swift */,
+				136ACF771C42B7F1000B2BD5 /* WorkoutCell.swift */,
+				136ACF761C42B7F1000B2BD5 /* WorkoutButtonCell.swift */,
+				136ACF6D1C42B7F1000B2BD5 /* ParkButtonCell.swift */,
+				136ACF6E1C42B7F1000B2BD5 /* ParkCell.swift */,
+				136ACF5B1C42B756000B2BD5 /* AddWorkoutInfoCell.swift */,
+				136ACF5A1C42B756000B2BD5 /* AddWorkoutExerciseCell.swift */,
+				136ACF591C42B756000B2BD5 /* AddWorkoutCell.swift */,
+				136ACF571C42B756000B2BD5 /* AddParkRateCell.swift */,
+				136ACF541C42B756000B2BD5 /* AddParkDetailsCell.swift */,
+				136ACF551C42B756000B2BD5 /* AddParkInfoCell.swift */,
+				136ACF561C42B756000B2BD5 /* AddParkLocationCell.swift */,
+				136ACF531C42B756000B2BD5 /* AddParkCoordinatesCell.swift */,
+				136ACF521C42B756000B2BD5 /* AddParkCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -264,11 +275,11 @@
 		13BCD4681C4194D8005EDF92 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				13BCD4931C41962E005EDF92 /* MapPark.swift */,
-				13BCD4951C419635005EDF92 /* Exercise.swift */,
-				13BCD4971C41963A005EDF92 /* Workout.swift */,
-				13BCD4991C41963F005EDF92 /* DataModel.swift */,
-				13BCD49B1C419643005EDF92 /* Park.swift */,
+				136ACF8A1C42B85E000B2BD5 /* DataModel.swift */,
+				136ACF8B1C42B85E000B2BD5 /* Exercise.swift */,
+				136ACF6A1C42B7F1000B2BD5 /* MapPark.swift */,
+				136ACF6C1C42B7F1000B2BD5 /* Park.swift */,
+				136ACF751C42B7F1000B2BD5 /* Workout.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -276,18 +287,18 @@
 		13BCD4691C4194E0005EDF92 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				13BCD4A41C419677005EDF92 /* WorkoutViewController.swift */,
-				13BCD4A61C41967C005EDF92 /* AddWorkoutViewController.swift */,
-				13BCD4A81C419680005EDF92 /* WorkoutDetailViewController.swift */,
-				13BCD4AA1C419685005EDF92 /* ExerciseViewController.swift */,
-				13BCD4AC1C419689005EDF92 /* ExerciseDetailViewController.swift */,
-				13BCD4AE1C41968D005EDF92 /* ExerciseImageViewController.swift */,
-				13BCD4B01C419692005EDF92 /* MapViewController.swift */,
-				13BCD4B21C419696005EDF92 /* ParkViewController.swift */,
-				13BCD4B41C41969C005EDF92 /* ParkImageViewController.swift */,
-				13BCD4B61C4196A1005EDF92 /* ParkDetailViewController.swift */,
-				13BCD4B81C4196A5005EDF92 /* AddParkViewController.swift */,
-				13BCD4BA1C4196AA005EDF92 /* CameraViewController.swift */,
+				136ACF951C42B891000B2BD5 /* CameraViewController.swift */,
+				136ACF8E1C42B87E000B2BD5 /* ExerciseDetailViewController.swift */,
+				136ACF8F1C42B87E000B2BD5 /* ExerciseImageViewController.swift */,
+				136ACF901C42B87E000B2BD5 /* ExerciseViewController.swift */,
+				136ACF581C42B756000B2BD5 /* AddParkViewController.swift */,
+				136ACF5C1C42B756000B2BD5 /* AddWorkoutViewController.swift */,
+				136ACF6B1C42B7F1000B2BD5 /* MapViewController.swift */,
+				136ACF6F1C42B7F1000B2BD5 /* ParkDetailViewController.swift */,
+				136ACF701C42B7F1000B2BD5 /* ParkImageViewController.swift */,
+				136ACF731C42B7F1000B2BD5 /* ParkViewController.swift */,
+				136ACF791C42B7F1000B2BD5 /* WorkoutViewController.swift */,
+				136ACF781C42B7F1000B2BD5 /* WorkoutDetailViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -295,12 +306,13 @@
 		13BCD46A1C4194FF005EDF92 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				136ACF681C42B7BF000B2BD5 /* ParkPinDetailView.xib */,
+				136ACF9C1C42BA20000B2BD5 /* Main.storyboard */,
 				13BCD4431C41945C005EDF92 /* Info.plist */,
 				13BCD4351C41945C005EDF92 /* AppDelegate.swift */,
 				13BCD43E1C41945C005EDF92 /* Assets.xcassets */,
-				13BCD4A11C41966A005EDF92 /* Main.storyboard */,
-				13BCD49D1C419659005EDF92 /* LaunchScreen.storyboard */,
-				13BCD49F1C41965F005EDF92 /* ParkPinDetailView.xib */,
+				136ACF9A1C42B925000B2BD5 /* Base.lproj */,
+				136ACF501C42B725000B2BD5 /* LaunchScreen.storyboard */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -409,10 +421,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13BCD4701C41955B005EDF92 /* PortugalStreetWorkout_Parks.plist in Resources */,
-				13BCD4A31C41966A005EDF92 /* Main.storyboard in Resources */,
-				13BCD49E1C419659005EDF92 /* LaunchScreen.storyboard in Resources */,
-				13BCD4A01C41965F005EDF92 /* ParkPinDetailView.xib in Resources */,
+				136ACF691C42B7BF000B2BD5 /* ParkPinDetailView.xib in Resources */,
+				136ACF841C42B7F1000B2BD5 /* PortugalStreetWorkout_Parks.plist in Resources */,
+				136ACF511C42B725000B2BD5 /* LaunchScreen.storyboard in Resources */,
+				136ACF9D1C42BA20000B2BD5 /* Main.storyboard in Resources */,
+				136ACF9B1C42B925000B2BD5 /* Base.lproj in Resources */,
 				13BCD43F1C41945C005EDF92 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,37 +451,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13BCD4841C4195FC005EDF92 /* AddWorkoutInfoCell.swift in Sources */,
-				13BCD4961C419635005EDF92 /* Exercise.swift in Sources */,
-				13BCD4A71C41967C005EDF92 /* AddWorkoutViewController.swift in Sources */,
-				13BCD4B71C4196A1005EDF92 /* ParkDetailViewController.swift in Sources */,
-				13BCD4921C419621005EDF92 /* ParkButtonCell.swift in Sources */,
+				136ACF671C42B756000B2BD5 /* AddWorkoutViewController.swift in Sources */,
+				136ACF931C42B87E000B2BD5 /* ExerciseViewController.swift in Sources */,
+				136ACF971C42B891000B2BD5 /* CameraViewController.swift in Sources */,
+				136ACF7E1C42B7F1000B2BD5 /* ParkCell.swift in Sources */,
+				136ACF5D1C42B756000B2BD5 /* AddParkCell.swift in Sources */,
 				13BCD4361C41945C005EDF92 /* AppDelegate.swift in Sources */,
-				13BCD4801C4195F3005EDF92 /* WorkoutCell.swift in Sources */,
-				13BCD4AF1C41968D005EDF92 /* ExerciseImageViewController.swift in Sources */,
-				13BCD48A1C41960E005EDF92 /* ExerciseCell.swift in Sources */,
-				13BCD4B51C41969C005EDF92 /* ParkImageViewController.swift in Sources */,
-				13BCD4861C419602005EDF92 /* AddWorkoutExerciseCell.swift in Sources */,
-				13BCD4B31C419696005EDF92 /* ParkViewController.swift in Sources */,
-				13BCD47E1C4195EC005EDF92 /* WorkoutButtonCell.swift in Sources */,
-				13BCD4821C4195F7005EDF92 /* AddWorkoutCell.swift in Sources */,
-				13BCD46E1C419556005EDF92 /* ParkPinDetailView.swift in Sources */,
-				13BCD4BB1C4196AA005EDF92 /* CameraViewController.swift in Sources */,
-				13BCD4AD1C419689005EDF92 /* ExerciseDetailViewController.swift in Sources */,
-				13BCD4901C41961D005EDF92 /* AddParkDetailsCell.swift in Sources */,
-				13BCD4AB1C419685005EDF92 /* ExerciseViewController.swift in Sources */,
-				13BCD46C1C419550005EDF92 /* ParkPin.swift in Sources */,
-				13BCD4A91C419680005EDF92 /* WorkoutDetailViewController.swift in Sources */,
-				13BCD4A51C419677005EDF92 /* WorkoutViewController.swift in Sources */,
-				13BCD4881C419609005EDF92 /* ParkCell.swift in Sources */,
-				13BCD4B11C419692005EDF92 /* MapViewController.swift in Sources */,
-				13BCD4941C41962E005EDF92 /* MapPark.swift in Sources */,
-				13BCD49C1C419643005EDF92 /* Park.swift in Sources */,
-				13BCD48C1C419613005EDF92 /* AddParkCell.swift in Sources */,
-				13BCD4B91C4196A5005EDF92 /* AddParkViewController.swift in Sources */,
-				13BCD4981C41963A005EDF92 /* Workout.swift in Sources */,
-				13BCD48E1C419618005EDF92 /* AddParkInfoCell.swift in Sources */,
-				13BCD49A1C41963F005EDF92 /* DataModel.swift in Sources */,
+				136ACF861C42B7F1000B2BD5 /* WorkoutButtonCell.swift in Sources */,
+				136ACF7B1C42B7F1000B2BD5 /* MapViewController.swift in Sources */,
+				136ACF871C42B7F1000B2BD5 /* WorkoutCell.swift in Sources */,
+				136ACF611C42B756000B2BD5 /* AddParkLocationCell.swift in Sources */,
+				136ACF8D1C42B85E000B2BD5 /* Exercise.swift in Sources */,
+				136ACF651C42B756000B2BD5 /* AddWorkoutExerciseCell.swift in Sources */,
+				136ACF631C42B756000B2BD5 /* AddParkViewController.swift in Sources */,
+				136ACF7F1C42B7F1000B2BD5 /* ParkDetailViewController.swift in Sources */,
+				136ACF641C42B756000B2BD5 /* AddWorkoutCell.swift in Sources */,
+				136ACF991C42B8AC000B2BD5 /* ExerciseCell.swift in Sources */,
+				136ACF621C42B756000B2BD5 /* AddParkRateCell.swift in Sources */,
+				136ACF891C42B7F1000B2BD5 /* WorkoutViewController.swift in Sources */,
+				136ACF661C42B756000B2BD5 /* AddWorkoutInfoCell.swift in Sources */,
+				136ACF851C42B7F1000B2BD5 /* Workout.swift in Sources */,
+				136ACF801C42B7F1000B2BD5 /* ParkImageViewController.swift in Sources */,
+				136ACF921C42B87E000B2BD5 /* ExerciseImageViewController.swift in Sources */,
+				136ACF5E1C42B756000B2BD5 /* AddParkCoordinatesCell.swift in Sources */,
+				136ACF881C42B7F1000B2BD5 /* WorkoutDetailViewController.swift in Sources */,
+				136ACF601C42B756000B2BD5 /* AddParkInfoCell.swift in Sources */,
+				136ACF8C1C42B85E000B2BD5 /* DataModel.swift in Sources */,
+				136ACF5F1C42B756000B2BD5 /* AddParkDetailsCell.swift in Sources */,
+				136ACF831C42B7F1000B2BD5 /* ParkViewController.swift in Sources */,
+				136ACF811C42B7F1000B2BD5 /* ParkPin.swift in Sources */,
+				136ACF7A1C42B7F1000B2BD5 /* MapPark.swift in Sources */,
+				136ACF7D1C42B7F1000B2BD5 /* ParkButtonCell.swift in Sources */,
+				136ACF7C1C42B7F1000B2BD5 /* Park.swift in Sources */,
+				136ACF821C42B7F1000B2BD5 /* ParkPinDetailView.swift in Sources */,
+				136ACF911C42B87E000B2BD5 /* ExerciseDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,17 +523,6 @@
 			targetProxy = 13BCD4541C41945C005EDF92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		13BCD4A11C41966A005EDF92 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13BCD4A21C41966A005EDF92 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		13BCD45A1C41945C005EDF92 /* Debug */ = {
@@ -607,6 +612,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = StreetWorkout_PT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "estg.ipleiria.pt.StreetWorkout-PT";
@@ -618,10 +624,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = StreetWorkout_PT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "estg.ipleiria.pt.StreetWorkout-PT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Release;
 		};
@@ -692,6 +700,7 @@
 				13BCD45E1C41945C005EDF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13BCD45F1C41945C005EDF92 /* Build configuration list for PBXNativeTarget "StreetWorkout_PTTests" */ = {
 			isa = XCConfigurationList;
@@ -700,6 +709,7 @@
 				13BCD4611C41945C005EDF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13BCD4621C41945C005EDF92 /* Build configuration list for PBXNativeTarget "StreetWorkout_PTUITests" */ = {
 			isa = XCConfigurationList;
@@ -708,6 +718,7 @@
 				13BCD4641C41945C005EDF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

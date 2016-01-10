@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D9c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Park Pin Detail View" customClass="ParkPinDetailView" customModule="StreetWorkout_PT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="196"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="zcl-ft-cjb">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="196"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="ahg-AT-PfL">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="16"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KeO-0N-aek" customClass="Par">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="16"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillProportionally" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="bKE-69-bZQ">
+                            <rect key="frame" x="0.0" y="29" width="240" height="139"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ejR-Um-0Gh">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="139"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dRb-kd-8C2">
+                                            <rect key="frame" x="0.0" y="0.0" width="48" height="139"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cpy-kl-VBc">
+                                            <rect key="frame" x="48" y="0.0" width="48" height="139"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NRI-Q9-yrL">
+                                            <rect key="frame" x="96" y="0.0" width="48" height="139"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="as9-dJ-E0O">
+                                            <rect key="frame" x="144" y="0.0" width="48" height="139"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oMK-9S-7C7">
+                                            <rect key="frame" x="192" y="0.0" width="48" height="139"/>
+                                        </imageView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="eIQ-If-hmP">
+                            <rect key="frame" x="0.0" y="181" width="65" height="15"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHL-QX-bLv">
+                                    <rect key="frame" x="0.0" y="0.0" width="65" height="15"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="ahg-AT-PfL" firstAttribute="top" secondItem="zcl-ft-cjb" secondAttribute="top" id="FPa-2A-S8A"/>
+                        <constraint firstAttribute="width" constant="240" id="VNI-os-4NN"/>
+                        <constraint firstAttribute="height" constant="196" id="X29-Ld-ANM"/>
+                        <constraint firstAttribute="trailing" secondItem="ahg-AT-PfL" secondAttribute="trailing" id="byt-2R-n0t"/>
+                        <constraint firstAttribute="bottom" secondItem="ahg-AT-PfL" secondAttribute="bottom" id="fRh-Yp-LeY"/>
+                        <constraint firstItem="ahg-AT-PfL" firstAttribute="leading" secondItem="zcl-ft-cjb" secondAttribute="leading" id="rjW-hZ-egA"/>
+                        <constraint firstItem="ahg-AT-PfL" firstAttribute="centerY" secondItem="zcl-ft-cjb" secondAttribute="centerY" id="rx3-dp-4Wq"/>
+                        <constraint firstItem="ahg-AT-PfL" firstAttribute="centerX" secondItem="zcl-ft-cjb" secondAttribute="centerX" id="xYH-qR-CQk"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="fRh-Yp-LeY"/>
+                            <exclude reference="rx3-dp-4Wq"/>
+                        </mask>
+                    </variation>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="zcl-ft-cjb" secondAttribute="trailing" id="2VO-Sv-Trz"/>
+                <constraint firstItem="zcl-ft-cjb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BA2-Kg-EdY"/>
+                <constraint firstAttribute="bottom" secondItem="zcl-ft-cjb" secondAttribute="bottom" id="hWw-5i-GhY"/>
+                <constraint firstItem="zcl-ft-cjb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xMn-me-sRJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="detailsLabel" destination="DHL-QX-bLv" id="3EA-zI-ryW"/>
+                <outlet property="ratingImages" destination="ejR-Um-0Gh" id="UYb-Dx-f62"/>
+            </connections>
+            <point key="canvasLocation" x="428" y="310"/>
+        </view>
+    </objects>
+</document>
