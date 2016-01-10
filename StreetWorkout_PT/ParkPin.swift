@@ -19,6 +19,6 @@ class ParkPin : NSObject, MKAnnotation {
         self.mapPark = mapPark
         self.coordinate = mapPark.location
         self.title = mapPark.name
-        /*self.subtitle = mapPark.details*/
+        self.subtitle = mapPark.category
     }
 }

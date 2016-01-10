@@ -13,6 +13,7 @@ import CoreLocation
 struct MapPark {
     let name: String
     let location: CLLocationCoordinate2D
+    let category: String
     let details: String
     let rating: ParkRating
     
@@ -20,6 +21,7 @@ struct MapPark {
     
     init?(dictionary: [String : AnyObject]) {
         guard let name = dictionary["name"] as? String,
+            let category = dictionary["category"] as? String,
             let details = dictionary["details"] as? String,
             let ratingRaw = dictionary["rating"] as? Int,
             let latitude = dictionary["latitude"] as? Double,
@@ -29,6 +31,7 @@ struct MapPark {
         }
         
         self.name = name
+        self.category = category
         self.details = details
         self.rating = rating
         

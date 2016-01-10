@@ -5,6 +5,8 @@
 	<dict>
 		<key>name</key>
 		<string>Lagoa Park</string>
+		<key>category</key>
+		<string>Maintenance</string>
 		<key>details</key>
 		<string>Park equipped with parallel, flat bars, benchs, monkey bars, wall bars, rings, among others.</string>
 		<key>rating</key>
@@ -17,6 +19,8 @@
 	<dict>
 		<key>name</key>
 		<string>Batalha Park</string>
+		<key>category</key>
+		<string>Maintenance</string>
 		<key>details</key>
 		<string>Park equipped with various equipment such as fixed bars, parallel, monkeybars, bending bars, benchs, and more!</string>
 		<key>rating</key>
@@ -25,6 +29,48 @@
 		<real>39.662588</real>
 		<key>longitude</key>
 		<real>-8.824376000000001</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sinçães Park</string>
+		<key>category</key>
+		<string>Street Workout</string>
+		<key>details</key>
+		<string>Park equipped for the specific practice of  Street Workout.</string>
+		<key>rating</key>
+		<string>3,2</string>
+		<key>latitude</key>
+		<string>41,413412</string>
+		<key>longitude</key>
+		<string>-8,517647</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Olivais Park</string>
+		<key>category</key>
+		<string>Street Workout</string>
+		<key>details</key>
+		<string>Park equipped for the specific practice of  Street Workout.</string>
+		<key>rating</key>
+		<string>5,0</string>
+		<key>latitude</key>
+		<string>38,814966</string>
+		<key>longitude</key>
+		<string>-9,117730</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Quinta de Santo António</string>
+		<key>category</key>
+		<string>Geriatric</string>
+		<key>details</key>
+		<string>Park equipped with a geriatric circuit.</string>
+		<key>rating</key>
+		<string>5,0</string>
+		<key>latitude</key>
+		<string>38,709792</string>
+		<key>longitude</key>
+		<string>-9,229718</string>
 	</dict>
 </array>
 </plist>

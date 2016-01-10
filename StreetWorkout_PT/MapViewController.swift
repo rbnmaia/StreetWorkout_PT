@@ -77,7 +77,7 @@ extension MapViewController: MKMapViewDelegate {
         return nil
     }
         
-    let identifier = "ParkPinDetailView"
+    let identifier = "ParkPin"
         
     var annotationView = mapView.dequeueReusableAnnotationViewWithIdentifier(identifier) as? MKPinAnnotationView
     
@@ -87,7 +87,21 @@ extension MapViewController: MKMapViewDelegate {
     }
     
     annotationView!.annotation = annotation
- 
+        
+    if annotation.mapPark.category == "Maintenance" {
+            annotationView!.pinTintColor =
+                UIColor(red:162.0, green:0, blue:37.0, alpha:1)
+    }
+        
+    if annotation.mapPark.category == "Street Workout" {
+            annotationView!.pinTintColor =
+                UIColor(red:96.0, green:169.0, blue:23.0, alpha:1)
+    }
+    
+    if annotation.mapPark.category == "Geriatric" {
+            annotationView!.pinTintColor =
+                UIColor(red:27.0, green:161.0, blue:226.0, alpha:1)
+    }
         
         /*let detailView = UIView.loadFromNibNamed(identifier) as! ParkPinDetailView
         detailView.mapPark = annotation.mappark
