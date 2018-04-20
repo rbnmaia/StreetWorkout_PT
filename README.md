@@ -36,13 +36,6 @@ Steps to be defined...
 
 Under monthly deployment.
 
-Check out the new updates by using Git repository.
-
-```
-cd stbxploit
-git pull
-```
-
 
 ## Built With
 
