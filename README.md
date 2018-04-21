@@ -14,8 +14,6 @@ This project was made with the goal of provide all available parks to pratice st
 
 Currently only available for iOS.
 
-:sunny: :muscle: :earth_africa: 
-
 
 ### Prerequisites
 
